@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+html, body {
+	background-image: url('../img/bg.webp');
+	height: 100%;
+}
+nav {
+	background-image: url('../img/green.webp');
+}
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+.navbar {
+    padding: 0.5rem 3rem;
+}
+.navbar-brand {
+	font-size: 1.5rem;
+    font-weight: 700;
+	transition: 1.2s;
+	margin-right:2rem;
+	color: black;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+	color:#95d459;
+	transition: 0.1s;
+	background-color: #feffe9;
+	padding: 10px;
+	border-radius: 20px;
+}
+.nav-link {
+	transition: 1.2s;
+	margin: 5px;
+	font-weight: 700;
+	border-radius: 10px;
+	color: white;
+}
+.nav-link:hover {
+	transition: 1.2s;
+	background-color: greenyellow;
+	border-radius: 15px;
+	color: black;
+}
+.jumbotron {
+	box-shadow: 2px 2px 20px darkgrey;
+	padding: 4rem 2rem;
+	border-radius: .3rem;
+}
+.bg-color{
+	background: #feffe9;
+}
+#title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-bottom: 5px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.img {
+	width: 50%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 20px lightgrey;
+}
+.img:hover{
+	transition: 0.7s;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 10px lightgrey;
+}
+.footer {
+	padding-top: 20px;
+	color: white;
+	margin: 0;
+	background-color: rgb(12, 14, 12);
+}
+.table{
+	vertical-align: inherit;
+}
